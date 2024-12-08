@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((data) => {
         data.slice(0, 6).forEach((item, index) => {
           const card = document.createElement("div");
-          card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-bg-utama";
+          card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
           card.setAttribute("data-aos", "zoom-in");
           card.setAttribute("data-aos-duration", "2000");
           card.setAttribute("data-aos-delay", `${index * 200}`); 
