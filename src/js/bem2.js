@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector("#pengurus-container");
   
-    fetch("https://api-database-ormawa-production.up.railway.app/")
+    fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Gagal memuat data JSON");
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector("#kaderisasi-container");
   
-    fetch("https://api-database-ormawa-production.up.railway.app/")
+    fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Gagal memuat data JSON");
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector("#iptek-container");
 
-  fetch("https://api-database-ormawa-production.up.railway.app/")
+  fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Gagal memuat data JSON");
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector("#jalsos-container");
 
-  fetch("https://api-database-ormawa-production.up.railway.app/")
+  fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Gagal memuat data JSON");
@@ -317,7 +317,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector("#mikat-container");
 
-  fetch("https://api-database-ormawa-production.up.railway.app/")
+  fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Gagal memuat data JSON");
@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector("#ekraf-container");
 
-  fetch("https://api-database-ormawa-production.up.railway.app/")
+  fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Gagal memuat data JSON");
@@ -475,7 +475,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector("#agama-container");
 
-  fetch("https://api-database-ormawa-production.up.railway.app/")
+  fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Gagal memuat data JSON");
@@ -554,7 +554,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector("#kominfo-container");
 
-  fetch("https://api-database-ormawa-production.up.railway.app/")
+  fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Gagal memuat data JSON");
@@ -633,7 +633,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector("#akastrat-container");
 
-  fetch("https://api-database-ormawa-production.up.railway.app/")
+  fetch("https://api-database-ormawa-production.up.railway.app/Bem2")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Gagal memuat data JSON");
