@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
           const InnerCard4 = document.createElement("div");
           InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-          InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-                <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+          InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+                <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
   
           card.appendChild(InnerCard1);
           card.appendChild(InnerCard2);
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((data) => {
         data.slice(6, 12).forEach((item, index) => {
           const card = document.createElement("div");
-          card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+          card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
           card.setAttribute("data-aos", "zoom-in");
           card.setAttribute("data-aos-duration", "2000");
           card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -109,19 +109,19 @@ document.addEventListener("DOMContentLoaded", () => {
           const InnerCardKartu = document.createElement("div");
           InnerCardKartu.className = "hidden kartu";
           InnerCardKartu.innerHTML = `
-            <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-            <p class="text-lg font-normal">${item.nama}</p>
-            <p class="text-lg font-normal">${item.nim}</p>
-            <p class="text-lg font-normal">${item.prodi}</p>
-            <p class="text-lg font-normal">${item.angkatan}</p>
-            <p class="text-lg font-normal">${item.ttl}</p>
+            <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+            <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+            <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+            <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+            <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+            <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
             <p class="text-lg font-normal">${item.pesankesan}</p>
           `;
   
           const InnerCard4 = document.createElement("div");
           InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-          InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-                <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+          InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+                <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
   
           card.appendChild(InnerCard1);
           card.appendChild(InnerCard2);
@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       data.slice(12, 18).forEach((item, index) => {
         const card = document.createElement("div");
-        card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+        card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
         card.setAttribute("data-aos", "zoom-in");
         card.setAttribute("data-aos-duration", "2000");
         card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -188,19 +188,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const InnerCardKartu = document.createElement("div");
         InnerCardKartu.className = "hidden kartu";
         InnerCardKartu.innerHTML = `
-          <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-          <p class="text-lg font-normal">${item.nama}</p>
-          <p class="text-lg font-normal">${item.nim}</p>
-          <p class="text-lg font-normal">${item.prodi}</p>
-          <p class="text-lg font-normal">${item.angkatan}</p>
-          <p class="text-lg font-normal">${item.ttl}</p>
+          <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+          <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+          <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+          <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+          <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
           <p class="text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
         InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-        InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+        InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
 
         card.appendChild(InnerCard1);
         card.appendChild(InnerCard2);
@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       data.slice(18, 23).forEach((item, index) => {
         const card = document.createElement("div");
-        card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+        card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
         card.setAttribute("data-aos", "zoom-in");
         card.setAttribute("data-aos-duration", "2000");
         card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -267,19 +267,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const InnerCardKartu = document.createElement("div");
         InnerCardKartu.className = "hidden kartu";
         InnerCardKartu.innerHTML = `
-          <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-          <p class="text-lg font-normal">${item.nama}</p>
-          <p class="text-lg font-normal">${item.nim}</p>
-          <p class="text-lg font-normal">${item.prodi}</p>
-          <p class="text-lg font-normal">${item.angkatan}</p>
-          <p class="text-lg font-normal">${item.ttl}</p>
+          <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+          <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+          <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+          <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+          <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
           <p class="text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
         InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-        InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+        InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
 
         card.appendChild(InnerCard1);
         card.appendChild(InnerCard2);
@@ -327,7 +327,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       data.slice(23, 32).forEach((item, index) => {
         const card = document.createElement("div");
-        card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+        card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
         card.setAttribute("data-aos", "zoom-in");
         card.setAttribute("data-aos-duration", "2000");
         card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -346,19 +346,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const InnerCardKartu = document.createElement("div");
         InnerCardKartu.className = "hidden kartu";
         InnerCardKartu.innerHTML = `
-          <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-          <p class="text-lg font-normal">${item.nama}</p>
-          <p class="text-lg font-normal">${item.nim}</p>
-          <p class="text-lg font-normal">${item.prodi}</p>
-          <p class="text-lg font-normal">${item.angkatan}</p>
-          <p class="text-lg font-normal">${item.ttl}</p>
+          <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+          <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+          <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+          <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+          <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
           <p class="text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
         InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-        InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+        InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
 
         card.appendChild(InnerCard1);
         card.appendChild(InnerCard2);
@@ -406,7 +406,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       data.slice(32, 37).forEach((item, index) => {
         const card = document.createElement("div");
-        card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+        card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
         card.setAttribute("data-aos", "zoom-in");
         card.setAttribute("data-aos-duration", "2000");
         card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -425,19 +425,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const InnerCardKartu = document.createElement("div");
         InnerCardKartu.className = "hidden kartu";
         InnerCardKartu.innerHTML = `
-          <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-          <p class="text-lg font-normal">${item.nama}</p>
-          <p class="text-lg font-normal">${item.nim}</p>
-          <p class="text-lg font-normal">${item.prodi}</p>
-          <p class="text-lg font-normal">${item.angkatan}</p>
-          <p class="text-lg font-normal">${item.ttl}</p>
+          <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+          <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+          <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+          <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+          <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
           <p class="text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
         InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-        InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+        InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
 
         card.appendChild(InnerCard1);
         card.appendChild(InnerCard2);
@@ -485,7 +485,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       data.slice(37, 42).forEach((item, index) => {
         const card = document.createElement("div");
-        card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+        card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
         card.setAttribute("data-aos", "zoom-in");
         card.setAttribute("data-aos-duration", "2000");
         card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -504,19 +504,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const InnerCardKartu = document.createElement("div");
         InnerCardKartu.className = "hidden kartu";
         InnerCardKartu.innerHTML = `
-          <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-          <p class="text-lg font-normal">${item.nama}</p>
-          <p class="text-lg font-normal">${item.nim}</p>
-          <p class="text-lg font-normal">${item.prodi}</p>
-          <p class="text-lg font-normal">${item.angkatan}</p>
-          <p class="text-lg font-normal">${item.ttl}</p>
+          <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+          <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+          <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+          <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+          <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
           <p class="text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
         InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-        InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+        InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
 
         card.appendChild(InnerCard1);
         card.appendChild(InnerCard2);
@@ -564,7 +564,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       data.slice(42, 48).forEach((item, index) => {
         const card = document.createElement("div");
-        card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+        card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
         card.setAttribute("data-aos", "zoom-in");
         card.setAttribute("data-aos-duration", "2000");
         card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -583,19 +583,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const InnerCardKartu = document.createElement("div");
         InnerCardKartu.className = "hidden kartu";
         InnerCardKartu.innerHTML = `
-          <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-          <p class="text-lg font-normal">${item.nama}</p>
-          <p class="text-lg font-normal">${item.nim}</p>
-          <p class="text-lg font-normal">${item.prodi}</p>
-          <p class="text-lg font-normal">${item.angkatan}</p>
-          <p class="text-lg font-normal">${item.ttl}</p>
+          <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+          <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+          <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+          <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+          <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
           <p class="text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
         InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-        InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+        InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
 
         card.appendChild(InnerCard1);
         card.appendChild(InnerCard2);
@@ -643,7 +643,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       data.slice(48, 53).forEach((item, index) => {
         const card = document.createElement("div");
-        card.className = "relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
+        card.className = "relative overflow-hidden w-40 h-64 md:w-60 md:h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-bg-utama";
         card.setAttribute("data-aos", "zoom-in");
         card.setAttribute("data-aos-duration", "2000");
         card.setAttribute("data-aos-delay", `${index * 200}`); 
@@ -662,19 +662,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const InnerCardKartu = document.createElement("div");
         InnerCardKartu.className = "hidden kartu";
         InnerCardKartu.innerHTML = `
-          <h1 class="text-2xl font-bold">${item.jabatan}</h1>
-          <p class="text-lg font-normal">${item.nama}</p>
-          <p class="text-lg font-normal">${item.nim}</p>
-          <p class="text-lg font-normal">${item.prodi}</p>
-          <p class="text-lg font-normal">${item.angkatan}</p>
-          <p class="text-lg font-normal">${item.ttl}</p>
+          <h1 class="text-lg md:text-2xl font-bold">${item.jabatan}</h1>
+          <p class="text-sm md:text-lg font-normal">${item.nama}</p>
+          <p class="text-sm md:text-lg font-normal">${item.nim}</p>
+          <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
+          <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
           <p class="text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
         InnerCard4.className = "flex flex-col justify-end items-center w-full h-full ";
-        InnerCard4.innerHTML = `<h1 class="text-lg font-bold text-white ">${item.jabatan}</h1>
-              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover"> `;
+        InnerCard4.innerHTML = `<h1 class="text-sm md:text-lg font-bold text-white ">${item.jabatan}</h1>
+              <img src="${item.foto}" alt="${item.nama}" class="w-full h-auto object-cover mt-6"> `;
 
         card.appendChild(InnerCard1);
         card.appendChild(InnerCard2);
