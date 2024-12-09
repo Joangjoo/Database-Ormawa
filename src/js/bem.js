@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
             <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
             <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-            <p class="text-lg font-normal">${item.pesankesan}</p>
+            <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
           `;
   
           const InnerCard4 = document.createElement("div");
@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
           <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
           <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-          <p class="text-lg font-normal">${item.pesankesan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
           <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
           <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-          <p class="text-lg font-normal">${item.pesankesan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
@@ -352,7 +352,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
           <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
           <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-          <p class="text-lg font-normal">${item.pesankesan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
@@ -431,7 +431,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
           <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
           <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-          <p class="text-lg font-normal">${item.pesankesan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
           <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
           <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-          <p class="text-lg font-normal">${item.pesankesan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
@@ -589,7 +589,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
           <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
           <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-          <p class="text-lg font-normal">${item.pesankesan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
@@ -668,7 +668,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="text-sm md:text-lg font-normal">${item.prodi}</p>
           <p class="text-sm md:text-lg font-normal">${item.angkatan}</p>
           <p class="text-sm md:text-lg font-normal">${item.ttl}</p>
-          <p class="text-lg font-normal">${item.pesankesan}</p>
+          <p class="text-sm md:text-lg font-normal">${item.pesankesan}</p>
         `;
 
         const InnerCard4 = document.createElement("div");
